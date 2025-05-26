@@ -1,9 +1,6 @@
 name: Build Preview Deployment
 
-on:
-  pull_request:
-    types: [opened, synchronize]
-  workflow_dispatch:
+on: push
 
 jobs:
   build-preview:
@@ -34,10 +31,11 @@ jobs:
         run: npm run check
 
       - name: Build Quartz
-        run: npx quartz build -d docs -v
+        run: npx quartz build
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: preview-build
+          name: site
           path: public
+          overwrite: true
