@@ -4,9 +4,8 @@ on: [push, workflow_dispatch]
 
 jobs:
   build-preview:
-    if: ${{ github.repository == 'jackyzha0/quartz' }}
     runs-on: ubuntu-latest
-    name: Build Preview
+    name: Build my own digital garden
     steps:
       - uses: actions/checkout@v4
         with:
