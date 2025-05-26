@@ -1,6 +1,6 @@
 name: Build Preview Deployment
 
-on: push
+on: [push, workflow_dispatch]
 
 jobs:
   build-preview:
