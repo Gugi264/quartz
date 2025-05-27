@@ -1,6 +1,5 @@
 name: Build my own digital garden
 
-#on: [push, workflow_dispatch]
 
 jobs:
   build-preview:
