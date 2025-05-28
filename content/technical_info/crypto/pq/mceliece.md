@@ -27,3 +27,4 @@ The [[nist_competition#Security levels]] are 1, 3 and 5 for the parameter sets. 
 | mcelice-8192128f | 1.357.824 | 14.120     | 208        | 32                | 5              | 
 
 
+The "." is a thousand seperator, for readability
