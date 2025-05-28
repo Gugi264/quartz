@@ -4,7 +4,7 @@ title: NIST PQ Competition
 
 The first NIST Post-Quantum Competition started in 2016. 
 
-At the end of 2024 the three winners were published: [ML-DSA](ml-dsa), [SLH-DSA](slh-dsa) and Kyber. The first two are signature algorithms, where as the last on is a KEM.
+ At the end of 2024 the three winners were published: [ML-DSA](ml-dsa), [SLH-DSA](slh-dsa) and [ML-KEM](ml-kem). The first two are signature algorithms, where as the last on is a KEM.
 
 
 # Comparision of different Signature schemes
