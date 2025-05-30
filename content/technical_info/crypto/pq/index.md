@@ -17,13 +17,9 @@ NIST started a the first call to standardize PQ-algorithms in 2016.
 
 At the end of 2024 the three winners were published: [ML-DSA](ml-dsa), [SLH-DSA](slh-dsa) and [ML-KEM](ml-kem). The first two are signature algorithms, where as the last on is a KEM.
 
-In the KEM category [[HQC]] was also selected as a runner-up, standarization pending.
-In the signature category, [[FN-DSA]] was also selected, but is yet to be officially standardized.
+In the KEM category [[hqc]] was also selected as a runner-up, standarization pending.
+In the signature category, [[fn-dsa]] was also selected, but is yet to be officially standardized.
 
-# Comparision of different Signature schemes
-
-![[pq_zoo.png]]
-Source: [Cloudflare](https://blog.cloudflare.com/pq-2024/)
 
 # Security levels
 NIST defines the following security strength categories:
