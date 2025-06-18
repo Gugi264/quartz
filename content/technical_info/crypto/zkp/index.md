@@ -12,8 +12,12 @@ This leads to three properties:
 - **Soundness**: The Prover can only convince the Verifer if the statment is true
 - **Zero-knowledge(ness)**: The Verifier learns no additional information beyond the fact that the statement is true
 
-TODO
 
 
+
+## Proof of Knowledge
+
+Proof of Knowledge proofs that the Verifier knows something. For example "I know the factorization of N".
+This is different then the statement "There exists a factorization of N", which is also proofable. 
 
 
