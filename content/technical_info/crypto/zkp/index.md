@@ -12,6 +12,8 @@ This leads to three properties:
 - **Soundness**: The Prover can only convince the Verifer if the statment is true
 - **Zero-knowledge(ness)**: The Verifier learns no additional information beyond the fact that the statement is true
 
+TODO
+
 
 
 
