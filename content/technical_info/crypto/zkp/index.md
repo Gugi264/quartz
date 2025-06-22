@@ -20,7 +20,10 @@ This leads to three properties:
 Proof of Knowledge proofs that the Verifier knows something. For example "I know the factorization of N".
 This is different then the statement "There exists a factorization of N", which is also proofable. 
 
-ijj
+
+## SNARKs
+
+Zero-Knowledge Succinct Non-Interactive Argument of Knowledge, or short zk-SNARK.
 
 
 
