@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./content:/usr/src/app/content
-      - ./public:/usr/src/app/public
+      - ./public/:/usr/src/app/output/
     environment:
       NODE_ENV: production
     container_name: quartz-container
