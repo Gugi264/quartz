@@ -5,7 +5,7 @@ title: SLH-DSA (Sphincs+)
 SLH-DSA (Stateless Hash-Based Digital Signature) is a PQ (Post-Quantum) digital signature algorithm, standardized in [Fips 205](https://csrc.nist.gov/pubs/fips/205/final), and got chosen as an alternative candidate of the first PQ competition by NIST in the signature category. 
 The security of SLH-DSA, originally called Sphincs+, is based on hash functions.
 
-NIST defined three security leves for SLH-DSA: 1,3 and 5.
+NIST defined three security leves for SLH-DSA: 1, 3 and 5.
 For an overview of the security levels, check [[nist_competition#Security levels]].
 
 ## Numbers

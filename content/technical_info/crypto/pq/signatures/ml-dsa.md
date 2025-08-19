@@ -5,7 +5,7 @@ title: ML-DSA (Dilithium)
 ML-DSA (Module-Lattice-Based Digital Signature) is a PQ (Post-Quantum) digital signature algorithm, standardized in [Fips 204](https://csrc.nist.gov/pubs/fips/204/final), and is the winner of the first PQ competition by NIST in the signature category. 
 ML-DSA, originally called Dilithium, is based on the Module Learning with Errors problem.
 
-NIST defined three security levels for ML-DSA: 2,3 and 5 which are ML-DSA-44,  ML-DSA-65 and ML-DSA-87 respectively.
+NIST defined three security levels for ML-DSA: 2, 3 and 5 which are ML-DSA-44,  ML-DSA-65 and ML-DSA-87 respectively.
 For an overview of the security levels, check [[nist_competition#Security levels]].
 
 
