@@ -25,6 +25,13 @@ This is different then the statement "There exists a factorization of N", which 
 
 Zero-Knowledge Succinct Non-Interactive Argument of Knowledge, or short zk-SNARK.
 
+The difference to "normal" ZkP is the Non-Interactive part, meaning that the proof can be generated without input from the Verifier.
+
+ - **Succint**: Means the proofs are short
+ - **Non-interactive**: Means the proof is static, consisting of a single message form the prover
+ - **Of Knowledge**: More or less means that the protocol establishes not only that the statement is true, but also that the prover _knows_ a "witness" to the veracity of the statment.
+
+
 
 
 
