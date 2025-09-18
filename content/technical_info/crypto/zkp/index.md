@@ -34,4 +34,3 @@ The difference to "normal" ZkP is the Non-Interactive part, meaning that the pro
 
 
 
-Test
