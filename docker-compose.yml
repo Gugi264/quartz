@@ -7,6 +7,13 @@ services:
     volumes:
       - ./content:/usr/src/app/content
       - ./public/:/usr/src/app/output/
+      # published straight from the Obsidian vault that syncthing writes to.
+      # read-only, and mounted per folder: Archive, Private and the vault root
+      # files stay out so they cannot be published by accident.
+      # VAULT is set in .env on the host (gitignored, keeps paths out of git)
+      - ${VAULT}/Knowledge:/usr/src/app/content/knowledge:ro
+      - ${VAULT}/Finance:/usr/src/app/content/finance:ro
+      - ${VAULT}/IT:/usr/src/app/content/it:ro
     environment:
       NODE_ENV: production
     container_name: quartz-container
