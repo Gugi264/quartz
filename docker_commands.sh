@@ -1,5 +1,3 @@
 #!/bin/bash
-npx quartz build
-mkdir -p output
-cp -R public/. output
-
+set -e
+npx quartz build -o output
